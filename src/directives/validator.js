@@ -2,7 +2,9 @@
 function validate(el, modifiers, bindingValue) {
     bindingValue = bindingValue && typeof bindingValue === 'object' ? bindingValue : {}
     const value = typeof el.value === 'string' ? el.value.trim() : ''
-    const {title = '该项', error} = bindingValue
+    const {
+        title = '该项', error
+    } = bindingValue
     let defaultError = ''
 
     if (modifiers.required && value === '') {
@@ -19,8 +21,7 @@ function validate(el, modifiers, bindingValue) {
             if (!bindingValue.regex.test(value)) {
                 defaultError = `${title}格式不正确`
             }
-        } catch (e) {
-        }
+        } catch (e) {}
     }
 
     if (defaultError) {
@@ -68,7 +69,11 @@ function getErrorElement(el) {
 export default {
     bind(el, binding, vnode) {
         // 使用解构赋值声明 value = binding.value,  arg = binding.arg,  modifiers = binding.modifiers
-        const {value, arg, modifiers} = binding
+        const {
+            value,
+            arg,
+            modifiers
+        } = binding
         // 如果没传对应的事件名称参数，就默认使用 change 事件
         const eventType = ['change', 'blur', 'input'].indexOf(arg) !== -1 ? arg : 'change'
         // 默认处理器，当用户开始输入时，移除错误提示
@@ -93,7 +98,10 @@ export default {
         }
     },
     inserted(el, binding, vnode) {
-        const {value, modifiers} = binding
+        const {
+            value,
+            modifiers
+        } = binding
         // 指定当前一系列验证项的父级，我们这里指定为含 data-validator-form 的元素
         const form = el.closest('[data-validator-form]')
         // 指定一个按钮来检查所有验证项，我们这里指定为含 type=submit 的元素

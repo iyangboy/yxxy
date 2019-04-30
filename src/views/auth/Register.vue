@@ -115,7 +115,7 @@ export default {
             // 保存用户信息
             // ls.setItem("user", user);
             this.$store.dispatch('login', user)
-            //alert("注册成功");
+            // alert("注册成功");
             this.showMsg('注册成功', 'success')
         },
         showMsg (msg, type = 'warning') {

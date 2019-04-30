@@ -62,4 +62,10 @@ export default [{
             auth: true
         }
     },
+    // Content
+    {
+        path: '/articles/:articleId/content',
+        name: 'Content',
+        component: () => import('@/views/articles/Content.vue')
+    },
 ]

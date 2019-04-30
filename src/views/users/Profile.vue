@@ -101,7 +101,8 @@ export default {
                         hobbies: this.hobbies,
                         introduction: this.introduction
                     })
-                    alert('修改成功')
+                    // alert('修改成功')
+                    this.$message.show('修改成功')
                 }
             })
         }

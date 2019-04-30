@@ -1,8 +1,8 @@
 <template>
     <div class="row">
-        <!-- 消息组件 -->
-        <Message :show.sync="msgShow" :type="msgType" :msg="msg" />
         <div class="col-md-4 col-md-offset-4 floating-box">
+            <!-- 消息组件 -->
+            <Message :show.sync="msgShow" :type="msgType" :msg="msg" />
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">请注册</h3>
@@ -95,7 +95,8 @@ export default {
                         }.png`
                 };
                 // localStorage 的用户信息
-                const localUser = ls.getItem("user");
+                // const localUser = ls.getItem("user");
+                const localUser = this.$store.state.user
 
                 if (localUser) {
                     // 检查是否重名
@@ -112,7 +113,8 @@ export default {
         // 登陆
         login (user) {
             // 保存用户信息
-            ls.setItem("user", user);
+            // ls.setItem("user", user);
+            this.$store.dispatch('login', user)
             //alert("注册成功");
             this.showMsg('注册成功', 'success')
         },

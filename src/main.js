@@ -7,6 +7,7 @@ import App from './App'
 import router from './router'
 import './directives'
 import './components'
+import store from './store'
 
 // 设置 false 以阻止 Vue 在启动时生成生产提示
 Vue.config.productionTip = false
@@ -17,6 +18,7 @@ Vue.config.productionTip = false
 new Vue({
     el: '#app',
     router,
+    store,
     components: {
         App
     },

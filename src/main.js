@@ -10,6 +10,7 @@ import './components'
 import store from './store'
 import VueSweetalert2 from './plugins/vue-sweetalert2'
 import Message from './plugins/message'
+import './filters'
 
 // 使用插件
 Vue.use(VueSweetalert2)

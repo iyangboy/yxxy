@@ -73,5 +73,26 @@ export const post = ({
                 showMsg: true
             }
         })
+    } else {
+        // article 未传参时
+        // 遍历所有文章
+        for (let article of articles) {
+            // 找到与 articleId 对应的文章
+            if (parseInt(article.articleId) === parseInt(articleId)) {
+                // 删除对应的文章
+                articles.splice(articles.indexOf(article), 1)
+                break
+            }
+        }
+
+        // 更新文章列表
+        commit('UPDATE_ARTICLES', articles)
+        // 跳转到首页，附带 showMsg 参数，以指示首页显示一个消息提示
+        router.push({
+            name: 'Home',
+            params: {
+                showMsg: true
+            }
+        })
     }
 }

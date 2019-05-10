@@ -90,7 +90,14 @@ export default {
         },
         // 删除文章
         deleteArticle () {
-
+            this.$swal({
+                text: '你确定要删除此内容吗?',
+                confirmButtonText: '删除'
+            }).then((res) => {
+                if (res.value) {
+                    this.$store.dispatch('post', { articleId: this.articleId })
+                }
+            })
         }
     }
 }

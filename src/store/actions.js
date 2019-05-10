@@ -47,6 +47,19 @@ export const post = ({
                 content,
                 date
             })
+        } else {
+            // 如果有传 articleId
+            // 遍历所有文章
+            for (let article of articles) {
+                // 找到与 articleId 对应的文章
+                if (parseInt(article.articleId) === parseInt(articleId)) {
+                    // 更新文章的标题
+                    article.title = title
+                    // 更新文章的内容
+                    article.content = content
+                    break
+                }
+            }
         }
 
         // 更新所有文章

@@ -3,7 +3,7 @@
         <div class="blog-pages">
             <div class="col-md-12 panel">
                 <div class="panel-body">
-                    <h2 class="text-center">创作文章</h2>
+                    <h2 class="text-center">{{ articleId ? '编辑文章' : '创作文章' }}</h2>
                     <hr>
                     <div data-validator-form>
                         <div class="form-group">
@@ -37,7 +37,29 @@ export default {
     data () {
         return {
             title: '', // 文章标题
-            content: '' // 文章内容
+            content: '', // 文章内容
+            articleId: undefined // 文章 ID
+        }
+    },
+    beforeRouteEnter (to, from, next) {
+        next(vm => {
+            // 确认渲染组件的对应路由时，设置 articleId
+            vm.setArticleId(vm.$route.params.articleId)
+        })
+    },
+    // 在离开该组件的对应路由前
+    beforeRouteLeave (to, from, next) {
+        // 清空自动保存的文章数据
+        this.clearData()
+        next()
+    },
+    watch: {
+        // 监听路由参数的变化
+        '$route' (to) {
+            // 清空自动保存的文章数据
+            this.clearData()
+            // 设置 articleId
+            this.setArticleId(to.params.articleId)
         }
     },
     mounted () {
@@ -71,7 +93,7 @@ export default {
         // 将 simplemde 添加到当前实例，以在其他地方调用
         this.simplemde = simplemde
         // 初始化标题和内容
-        this.fillContent()
+        // this.fillContent()
     },
     methods: {
         // 编辑器只会自动保存文章的内容，我们需要自己保存文章的标题
@@ -79,17 +101,41 @@ export default {
             ls.setItem('smde_title', this.title)
         },
         // 初始化标题和内容
-        fillContent () {
+        fillContent (articleId) {
+            // 编辑器
             const simplemde = this.simplemde
-            const title = ls.getItem('smde_title')
+            // 自动保存的标题
+            const smde_title = ls.getItem('smde_title')
 
-            // 如果 localStorage 有标题数据，使用它作为文章标题
-            if (title !== null) {
-                this.title = title
+            // 有 articleId 时
+            if (articleId !== undefined) {
+                // 获取对应文章
+                const article = this.$store.getters.getArticleById(articleId)
+
+                if (article) {
+                    // 获取文章的标题和内容
+                    const { title, content } = article
+
+                    // 有自动保存的标题时，使用自动保存的标题，否则使用文章的标题
+                    this.title = smde_title || title
+                    // 有自动保存的内容时，使用自动保存的内容，否则使用文章的内容
+                    this.content = simplemde.value() || content
+                    // 设置编辑器的内容
+                    simplemde.value(this.content)
+                }
+            } else {
+                // 没有 articleId 时，使用自动保存的标题和内容
+                this.title = smde_title
+                this.content = simplemde.value()
             }
 
+            // 如果 localStorage 有标题数据，使用它作为文章标题
+            // if (title !== null) {
+            //     this.title = title
+            // }
+
             // 使用编辑器的内容作为文章内容
-            this.content = simplemde.value()
+            // this.content = simplemde.value()
         },
         // 发布
         post () {
@@ -105,7 +151,8 @@ export default {
 
                 // 在控制台输出当前文章
                 // console.log(article)
-                this.$store.dispatch('post', { article })
+                // 在分发 post 事件时，附带 articleId 参数
+                this.$store.dispatch('post', { article, articleId: this.articleId })
                 // 清除数据
                 this.clearData()
             }
@@ -118,6 +165,24 @@ export default {
             this.simplemde.value('')
             // 清除编辑器自动保存的内容
             this.simplemde.clearAutosavedValue()
+        },
+        // 设置 articleId
+        setArticleId (articleId) {
+            // 获取 localStorage 保存的 articleId，临时用它来判断是否还处于当前编辑页面
+            const localArticleId = ls.getItem('articleId')
+
+            // 手动在两个不同的编辑页面之间跳转时（如 /articles/1/edit 和 /articles/2/edit）时
+            if (articleId !== undefined && !(articleId === localArticleId)) {
+                // 清空自动保存的文章数据
+                this.clearData()
+            }
+
+            // 设置当前实例的 articleId
+            this.articleId = articleId
+            // 填充文章数据
+            this.fillContent(articleId)
+            // 在 localStorage 保存一个 articleId
+            ls.setItem('articleId', articleId)
         }
     }
 }

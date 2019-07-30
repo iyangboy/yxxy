@@ -154,14 +154,7 @@ export const like = ({
 }
 
 // 参数 articleId 是文章 ID；comment 是评论内容；commentId 是评论 ID
-export const comment = ({
-    commit,
-    state
-}, {
-    articleId,
-    comment,
-    commentId
-}) => {
+export const comment = ({ commit, state }, { articleId, comment, commentId }) => {
     // 仓库的文章
     let articles = state.articles
     // 评论列表
@@ -208,6 +201,16 @@ export const comment = ({
                             comment.content = content
                             break
                         }
+                    }
+                }
+            } else {
+                // 不存在评论内容时
+                for (let comment of comments) {
+                    // 找到对应的评论时
+                    if (parseInt(comment.commentId) === parseInt(commentId)) {
+                        // 删除这条评论
+                        comments.splice(comments.indexOf(comment), 1)
+                        break
                     }
                 }
             }

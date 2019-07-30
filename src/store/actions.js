@@ -199,6 +199,16 @@ export const comment = ({
                         content,
                         date
                     })
+                } else {
+                    // commentId 不为 undefined 时
+                    for (let comment of comments) {
+                        // 找到对应的评论时
+                        if (parseInt(comment.commentId) === parseInt(commentId)) {
+                            // 更新评论的内容
+                            comment.content = content
+                            break
+                        }
+                    }
                 }
             }
 

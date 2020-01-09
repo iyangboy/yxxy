@@ -11,7 +11,10 @@ import store from './store'
 import VueSweetalert2 from './plugins/vue-sweetalert2'
 import Message from './plugins/message'
 import './filters'
+import Vant from 'vant';
+import 'vant/lib/index.css';
 
+Vue.use(Vant);
 // 使用插件
 Vue.use(VueSweetalert2)
 Vue.use(Message)

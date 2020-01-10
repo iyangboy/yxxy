@@ -23,17 +23,22 @@
           <van-radio name="1">已经阅读并同意<router-link to="/yxxy-doc">《羊习习羊注册协议》</router-link></van-radio>
         </van-radio-group>
     </van-divider> -->
-    <div class="form-group" style="margin-top:100px;">
+    <div v-if="auth">
         <van-divider dashed>
             <van-radio-group v-model="radio">
               <van-radio name="1">购买即表示同意<router-link to="/yxxy-doc">《购买协议》</router-link></van-radio>
           </van-radio-group>
-      </van-divider>
-        <div class="col-sm-offset-2 col-sm-6">
-            <button v-if="auth" type="submit" class="btn btn-primary btn-block" @click="showPopup">购买羊习习羊VIP专享服务￥249</button>
-            <button v-else type="submit" class="btn btn-primary btn-block" @click="showPopup">请登录</button>
+        </van-divider>
+        <div><van-cell title="退出登录" is-link @click="logout" /></div>
+      </div>
+      <div v-else style="border-bottom:5px solid #EEEEEE">
+        <div style="border-bottom:1px solid #EEEEEE">
+          <van-cell title="登录" is-link to="/auth/login" />
         </div>
-    </div>
+        <div>
+          <van-cell title="注册" is-link to="/auth/register" />
+        </div>
+      </div>
 </div>
 <van-dialog
 v-model="show"

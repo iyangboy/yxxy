@@ -4,7 +4,7 @@
 
 <p style="text-align:center;"><span style="color:rgb(0,0,0);font-size:12pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">后续借款视为同意以本人姓名签署本协议， </span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">平台由南京花米米袋网络科技有限公司负责运营。《</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">注册协议》（以下简称“本协议”）是</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">会员（以下简称“用户”、“会员”或“您”）与南京花米米袋网络科技有限公司（以下简称“</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">”）之间签订的协议，具有合同效力。您确认，在申请本协议项下服务时，已详细阅读本协议的所有内容，您充分理解并同意接受本协议的全部内容，包括但不限于关于电子签名认证证书的授权、联系人信息及通讯录的授权、通话记录的授权及使用、转委托以及征信信息的查询等事项。</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">在此特别提醒：请您认真阅读和充分理解本协议各条款，特别是其中所涉及的免除或限制</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">责任的条款、对用户权利限制的条款、用户给予授权的条款以及本协议为用户在</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">平台从事各项活动的交易规则的条款等。</span><b><span style="color:rgb(0,0,0);font-size:11pt;">若您不接受或不理解本协议任何一条款的，请您立即停止注册操作或立即停止使用任何信用会员权益，否则由此产生的一切行为及其产生的后果由您自行承担，</span></b><b><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span></b><b><span style="color:rgb(0,0,0);font-size:11pt;">及其关联公司对此不承担任何法律责任。</span></b><span style="color:rgb(0,0,0);font-size:11pt;">您一经注册或使用信用会员权益即视为对本协议全部条款已充分理解并完全接受。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">后续</span><span style="color:rgb(0,0,0);font-size:11pt;">会员权益</span><span style="color:rgb(0,0,0);font-size:11pt;">视为同意以本人姓名签署本协议， </span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">平台由南京花米米袋网络科技有限公司负责运营。《</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">注册协议》（以下简称“本协议”）是</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">会员（以下简称“用户”、“会员”或“您”）与南京花米米袋网络科技有限公司（以下简称“</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">”）之间签订的协议，具有合同效力。您确认，在申请本协议项下服务时，已详细阅读本协议的所有内容，您充分理解并同意接受本协议的全部内容，包括但不限于关于电子签名认证证书的授权、联系人信息及通讯录的授权、通话记录的授权及使用、转委托以及征信信息的查询等事项。</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">在此特别提醒：请您认真阅读和充分理解本协议各条款，特别是其中所涉及的免除或限制</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">责任的条款、对用户权利限制的条款、用户给予授权的条款以及本协议为用户在</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">平台从事各项活动的交易规则的条款等。</span><b><span style="color:rgb(0,0,0);font-size:11pt;">若您不接受或不理解本协议任何一条款的，请您立即停止注册操作或立即停止使用任何信用会员权益，否则由此产生的一切行为及其产生的后果由您自行承担，</span></b><b><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span></b><b><span style="color:rgb(0,0,0);font-size:11pt;">及其关联公司对此不承担任何法律责任。</span></b><span style="color:rgb(0,0,0);font-size:11pt;">您一经注册或使用信用会员权益即视为对本协议全部条款已充分理解并完全接受。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -12,7 +12,7 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">第一条羊习习羊会员权益是由</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">通过</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">平台向用户提供的网络借贷的技术服务，不直接向用户发放贷款、融资等业务。</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">在此郑重声明，用户从</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">平台上申请的借款，均来自第三方提供。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">第一条羊习习羊会员权益是由</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">通过</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">平台向用户提供的</span><span style="color:rgb(0,0,0);font-size:11pt;">会员权益</span><span style="color:rgb(0,0,0);font-size:11pt;">服务。</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">在此郑重声明，用户从</span><span style="color:rgb(0,0,0);font-size:11pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:11pt;">平台上申请的</span><span style="color:rgb(0,0,0);font-size:11pt;">服务</span><span style="color:rgb(0,0,0);font-size:11pt;">，均来自第三方提供。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -32,7 +32,7 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">第六条作为借款人的用户同意向羊习习羊或羊习习羊平台的技术服务方支付技术服务费，具体金额及支付方式以借款人与羊习习羊平台的技术服务方签订的《代扣服务协议》和《评估及推荐服务协议》中约定为准。借款人认可技术服务费在羊习习羊平台进行公示的方式和公示所展示内容的真实性和准确性。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">第六条作为</span><span style="color:rgb(0,0,0);font-size:11pt;">享有</span><span style="color:rgb(0,0,0);font-size:11pt;">会员权益的用户同意向羊习习羊或羊习习羊平台的技术服务方支付技术服务费，具体金额及支付方式以会员权益</span><span style="color:rgb(0,0,0);font-size:11pt;">享又人</span><span style="color:rgb(0,0,0);font-size:11pt;">与羊习习羊平台的技术服务方签订的《服务协议》中约定为准。</span><span style="color:rgb(0,0,0);font-size:11pt;">会员</span><span style="color:rgb(0,0,0);font-size:11pt;">认可技术服务费在羊习习羊平台进行公示的方式和公示所展示内容的真实性和准确性。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -76,15 +76,9 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">9.1.1用户委托羊习习羊进行借款匹配与确认。借款人在借款申请时，由羊习习羊合作的第三方机构或平台对借款人与出借人之间的借款进行匹配并确认，并以羊习习羊合作的第三方机构确认为准。羊习习羊不对借款人成功借款做任何保证或承诺。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">9.1.1用户委托羊习习羊进行会员权益与确认。</span><span style="color:rgb(0,0,0);font-size:11pt;">用户</span><span style="color:rgb(0,0,0);font-size:11pt;">在会员权益申请时，由羊习习羊合作的第三方机构或平台对</span><span style="color:rgb(0,0,0);font-size:11pt;">用户</span><span style="color:rgb(0,0,0);font-size:11pt;">进行匹配并确认，并以羊习习羊合作的第三方机构确认为准。羊习习羊不对</span><span style="color:rgb(0,0,0);font-size:11pt;">用户</span><span style="color:rgb(0,0,0);font-size:11pt;">成功</span><span style="color:rgb(0,0,0);font-size:11pt;">申请权益</span><span style="color:rgb(0,0,0);font-size:11pt;">做任何保证或承诺。</span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
-
-<p><span style="color:rgb(0,0,0);font-size:11pt;">9.1.2借款交易过程中，出借人向借款人交付借款时，出借人或出借人指定的第三方委托银行或第三方支付机构将出借人账户内相应资金划转至借款人的相应指定账户，由此产生的风险和法律责任由出借人、借款人来承担，羊习习羊对此不承担任何责任。</span></p>
-
-<p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
-
-<p><span style="color:rgb(0,0,0);font-size:11pt;">9.1.3借款期限届满时，用户委托羊习习羊或羊习习羊指定的第三方将债务人账户内相应资金(包含本金及收益)依据协议约定划转至相应债权人/权利人账户，债权人/债务人无条件的同意由羊习习羊或羊习习羊指定的第三方进行此操作，并以羊习习羊确认为准。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;"> </span><span style="color:rgb(0,0,0);font-size:11pt;"> 9.1.</span><span style="color:rgb(0,0,0);font-size:11pt;">2</span><span style="color:rgb(0,0,0);font-size:11pt;">会员权益届满时，用户委托羊习习羊或羊习习羊指定的第三方将债务人账户内相应资金(包含本金及收益)依据协议约定划转至相应债权人/权利人账户，</span><span style="color:rgb(0,0,0);font-size:11pt;">会员</span><span style="color:rgb(0,0,0);font-size:11pt;">无条件的同意由羊习习羊或羊习习羊指定的第三方进行此操作，并以羊习习羊确认为准。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -116,7 +110,7 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">9.6用户同意并授权：为了使您获得更为便捷的服务，您不可撤销的授权羊习习羊可以以您的名义代您注册、使用电子签名认证证书，并且羊习习羊对于该项权利的使用可以进行转授权或转委托，所开立电子签名的使用范围仅限于用户所对应借款业务的办理。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">9.6用户同意并授权：为了使您获得更为便捷的服务，您不可撤销的授权羊习习羊可以以您的名义代您注册、使用电子签名认证证书，并且羊习习羊对于该项权利的使用可以进行转授权或转委托，所开立电子签名的使用范围仅限于用户所对应</span><span style="color:rgb(0,0,0);font-size:11pt;">会员权益</span><span style="color:rgb(0,0,0);font-size:11pt;">业务的办理。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -148,7 +142,7 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">9.14在用户未履行完毕与用户所对应借款业务以及还款等相关义务之前，用户不得单方终止上述委托 。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">9.14在用户未履行完毕与用户所对应</span><span style="color:rgb(0,0,0);font-size:11pt;">会员</span><span style="color:rgb(0,0,0);font-size:11pt;">业务以及相关义务之前，用户不得单方终止上述委托 。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -168,7 +162,7 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">12.1用户使用会员账户登录羊习习羊平台后，根据羊习习羊的相关规则，以会员账户ID在羊习习羊平台通过点击“立即借款”、“我要借款”等类似确认方式签署的电子合同即视为用户本人真实意愿并以用户本人名义签署的合同，具有法律效力。用户应妥善保管自己的账户密码等账户信息，用户通过前述方式订立的电子合同对合同各方具有法律约束力，用户不得以其账户密码等账户信息被盗用或其他理由否认已订立的合同的效力或不按照该等合同履行相关义务。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">12.1用户使用会员账户登录羊习习羊平台后，根据羊习习羊的相关规则，以会员账户ID在羊习习羊平台通过点击</span><span style="color:rgb(0,0,0);font-size:11pt;">与三方平台</span><span style="color:rgb(0,0,0);font-size:11pt;">等类似确认方式签署的电子合同即视为用户本人真实意愿并以用户本人名义签署的合同，具有法律效力。用户应妥善保管自己的账户密码等账户信息，用户通过前述方式订立的电子合同对合同各方具有法律约束力，用户不得以其账户密码等账户信息被盗用或其他理由否认已订立的合同的效力或不按照该等合同履行相关义务。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -200,11 +194,9 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">13.1.4因用户违约逾期，从事贷后催收等工作的第三方对用户及相关方进行贷后催收而引起的任何损失或责任；</span></p>
-
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">13.1.5因其他第三方的行为或原因导致的任何损失或责任。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">13.1.</span><span style="color:rgb(0,0,0);font-size:11pt;">4</span><span style="color:rgb(0,0,0);font-size:11pt;">因其他第三方的行为或原因导致的任何损失或责任。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -264,11 +256,11 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">第十五条钱橙无忧不对任何用户及/或任何交易提供任何担保或条件，无论是明示、默示或法定的。羊习习羊不能也不试图对用户发布的信息进行控制，对该等信息，羊习习羊不承担任何形式的证明、鉴定服务。羊习习羊不能完全保证平台披露内容的真实性、充分性、可靠性、准确性、完整性和有效性，并且无需承担任何由此引起的法律责任。用户依赖于用户的独立判断进行交易，用户应对其作出的判断承担全部责任。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">第十五条不对任何用户及/或任何交易提供任何担保或条件，无论是明示、默示或法定的。羊习习羊不能也不试图对用户发布的信息进行控制，对该等信息，羊习习羊不承担任何形式的证明、鉴定服务。羊习习羊不能完全保证平台披露内容的真实性、充分性、可靠性、准确性、完整性和有效性，并且无需承担任何由此引起的法律责任。用户依赖于用户的独立判断进行交易，用户应对其作出的判断承担全部责任。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">第十六条以上并不能揭示用户通过羊习习羊进行网络借贷行为的全部风险及市场的全部情形。用户在做出网络借贷决策前，应全面了解相关交易，谨慎决策，并自行承担全部风险。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">第十六条以上并不能揭示用户通过羊习习羊进行网络借贷行为的全部风险及市场的全部情形。用户在做出决策前，应全面了解相关交易，谨慎决策，并自行承担全部风险。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -460,11 +452,9 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">第二十九条在用户逾期还款时，如果代偿方先行向出借人垫付用户应偿还给出借人的借款本息的，代偿方在向出借人进行垫付的同时，即刻自动取得出借人对用户的相应债权及其他权利，包括但不限于就前述债权向用户追偿的权利。此后用户应直接向代偿方偿还其垫付的借款本息及滞纳金及可能产生的其他费用。</span></p>
-
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">第三十条除本协议另有规定外，在任何情况下，羊习习羊对本协议所承担的违约赔偿责任总额不超过向用户收取的当次信用会员权益费用总额。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">第</span><span style="color:rgb(0,0,0);font-size:11pt;">二十九</span><span style="color:rgb(0,0,0);font-size:11pt;">条除本协议另有规定外，在任何情况下，羊习习羊对本协议所承担的违约赔偿责任总额不超过向用户收取的当次信用会员权益费用总额。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -480,7 +470,7 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">第三十三条羊习习羊有义务根据有关法律要求向司法机关和政府部门提供用户的个人资料。在用户未能按照与羊习习羊签订的相关协议或者与羊习习羊合作的服务提供方签订的协议等其他法律文本的约定履行自己应尽的义务时，羊习习羊有权根据自己的判断，或者与该笔交易有关的其他用户的请求披露用户的个人信息和资料，并做出评论。用户严重违反羊习习羊的相关规则（包括但不限于您的借款逾期超过[30]天等）的，羊习习羊有权对用户提供的及羊习习羊自行收集的用户的个人信息和资料编辑入网站黑名单，并将该黑名单对第三方披露，且羊习习羊有权将您自行提交或经您授权后羊习习羊自行收集的您的个人资料和信息与任何第三方进行数据共享，以便网站和第三方催收逾期借款及对您的其他申请进行审核之用，由此可能造成的您的任何损失，羊习习羊不承担法律责任。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">第三十三条羊习习羊有义务根据有关法律要求向司法机关和政府部门提供用户的个人资料。在用户未能按照与羊习习羊签订的相关协议或者与羊习习羊合作的服务提供方签订的协议等其他法律文本的约定履行自己应尽的义务时，羊习习羊有权根据自己的判断，或者与该笔交易有关的其他用户的请求披露用户的个人信息和资料，并做出评论。用户严重违反羊习习羊的相关规则的，羊习习羊有权对用户提供的及羊习习羊自行收集的用户的个人信息和资料编辑入网站黑名单，并将该黑名单对第三方披露，且羊习习羊有权将您自行提交或经您授权后羊习习羊自行收集的您的个人资料和信息与任何第三方进行数据共享，以便网站和第三方对您的其他申请进行审核之用，由此可能造成的您的任何损失，羊习习羊不承担法律责任。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
@@ -516,7 +506,7 @@
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 
-<p><span style="color:rgb(0,0,0);font-size:11pt;">第四十条本协议自用户在羊习习羊平台点击“立即借款”、“我要借款”“同意”、“确认”等类似确认方式时生效。本协议是用户在羊习习羊平台从事交易和其他活动的交易规则，用户同意无条件遵守该规则。本协议及其修订的有效性、履行与本协议及其修订效力有关的所有事宜，将受中华人民共和国法律约束，任何争议仅适用中华人民共和国法律。</span></p>
+<p><span style="color:rgb(0,0,0);font-size:11pt;">第四十条本协议自用户在羊习习羊平台点击“</span><span style="color:rgb(0,0,0);font-size:11pt;">成为会员</span><span style="color:rgb(0,0,0);font-size:11pt;">”、“同意”、“确认”等类似确认方式时生效。本协议是用户在羊习习羊平台从事交易和其他活动的交易规则，用户同意无条件遵守该规则。本协议及其修订的有效性、履行与本协议及其修订效力有关的所有事宜，将受中华人民共和国法律约束，任何争议仅适用中华人民共和国法律。</span></p>
 
 <p><span style="color:rgb(0,0,0);font-size:11pt;"> </span></p>
 

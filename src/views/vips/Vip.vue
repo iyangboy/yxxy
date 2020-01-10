@@ -23,6 +23,11 @@
           <van-radio name="1">已经阅读并同意<router-link to="/yxxy-doc">《羊习习羊注册协议》</router-link></van-radio>
         </van-radio-group>
     </van-divider> -->
+    <van-divider dashed>
+        <van-radio-group v-model="radio">
+          <van-radio name="1">购买即表示同意<router-link to="/yxxy-doc">《购买协议》</router-link></van-radio>
+      </van-radio-group>
+  </van-divider>
     <div class="form-group" style="margin-top:100px;">
         <div class="col-sm-offset-2 col-sm-6">
             <button v-if="auth" type="submit" class="btn btn-primary btn-block" @click="showPopup">购买羊习习羊VIP专享服务￥249</button>

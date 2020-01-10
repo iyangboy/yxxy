@@ -1,5 +1,6 @@
 <template>
   <van-row>
+    <div v-if="auth">
     <div class="user">
       <van-col span="8">
         <div class="avatar" style="line-height:100px; padding: 20px;">
@@ -51,9 +52,10 @@
         <div><van-cell title="帮助中心" is-link to="/" />
         </div>
       </div>
-      <div v-if="auth" style="border-bottom:5px solid #EEEEEE">
+      <div style="border-bottom:5px solid #EEEEEE">
         <div><van-cell title="退出登录" is-link @click="logout" /></div>
       </div>
+    </div>
       <div v-else style="border-bottom:5px solid #EEEEEE">
         <div style="border-bottom:1px solid #EEEEEE">
           <van-cell title="登录" is-link to="/auth/login" />

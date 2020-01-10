@@ -12,7 +12,7 @@ export default {
 
         Vue.nextTick(() => {
             // 在下一次 DOM 更新后，将实例目标添加到 #main-container 元素内部的最前面
-            document.querySelector('#main-container').prepend($el)
+            //document.querySelector('#main-container').prepend($el)
         })
         // 监听 show 值的改变
         vm.$on('update:show', (value) => {

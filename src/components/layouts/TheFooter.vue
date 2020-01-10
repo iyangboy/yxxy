@@ -16,17 +16,11 @@
 </template>
 
 <script>
-    // 引入 title.js 的默认值
-    import title from '@/directives/title'
-
     export default {
         name: 'TheFooter',
-        // 添加 directives 选项，并注册 title
-        directives: {
-            title
-        },
         data() {
             return {
+                active: 0
             }
         }
     }

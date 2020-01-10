@@ -1,6 +1,6 @@
 <template>
   <van-row>
-    <div class="credit-bg">
+    <!-- <div class="credit-bg">
       <h2>本期仍需要还款</h2>
       <h3>0,00</h3>
       <p>最近还款日2020-01-10</p>
@@ -12,7 +12,7 @@
           <van-col span="8">申请高额</van-col>
         </van-row>
       </div>
-    </div>
+    </div> -->
     <div>
       <van-grid>
         <van-grid-item icon="vip-card-o" text="我要办卡" />

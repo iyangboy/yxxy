@@ -24,7 +24,7 @@
         </van-radio-group>
     </van-divider> -->
     <div v-if="auth">
-        <div class="form-group" style="margin-top:100px;">
+        <div class="form-group">
         <van-divider dashed>
             <van-radio-group v-model="radio">
               <van-radio name="1">购买即表示同意<router-link to="/yxxy-doc">《购买协议》</router-link></van-radio>

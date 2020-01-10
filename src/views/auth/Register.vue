@@ -57,7 +57,7 @@ export default {
         return {
             confirm: 1, // 协议
             captchaTpl: "", // 验证码模板
-            username: "", // 用户名
+            //username: "", // 用户名
             phone: "", // 用户手机号
             password: "", // 密码
             cpassword: "", // 确认密码
@@ -103,12 +103,12 @@ export default {
             } else {
                 // 表单里的用户信息
                 const user = {
-                    name: this.username,
+                    // name: this.username,
                     phone: this.phone,
                     password: this.password,
                     // 根据用户名，从线上返回一张头像
                     avatar: `https://api.adorable.io/avatars/200/${
-                        this.username
+                        this.phone
                         }.png`
                 };
                 // localStorage 的用户信息
@@ -117,7 +117,7 @@ export default {
 
                 if (localUser) {
                     // 检查是否重名
-                    if (localUser.name === user.name) {
+                    if (localUser.phone === user.phone) {
                         alert("用户名已存在");
                     } else {
                         this.login(user);

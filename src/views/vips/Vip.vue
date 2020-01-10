@@ -24,12 +24,16 @@
         </van-radio-group>
     </van-divider> -->
     <div v-if="auth">
+        <div class="form-group" style="margin-top:100px;">
         <van-divider dashed>
             <van-radio-group v-model="radio">
               <van-radio name="1">购买即表示同意<router-link to="/yxxy-doc">《购买协议》</router-link></van-radio>
           </van-radio-group>
         </van-divider>
-        <div><van-cell title="退出登录" is-link @click="logout" /></div>
+        <div class="col-sm-offset-2 col-sm-6">
+        <button v-if="auth" type="submit" class="btn btn-primary btn-block" @click="showPopup">购买羊习习羊VIP专享服务￥249</button>
+        </div>
+        </div>
       </div>
       <div v-else style="border-bottom:5px solid #EEEEEE">
         <div style="border-bottom:1px solid #EEEEEE">

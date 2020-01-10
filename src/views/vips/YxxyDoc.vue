@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container main-container">
         <p style="text-align:center;"><span style="color:rgb(0,0,0);font-size:12pt;">羊习习羊</span><span style="color:rgb(0,0,0);font-size:12pt;">注册协议</span></p>
 
 <p style="text-align:center;"><span style="color:rgb(0,0,0);font-size:12pt;"> </span></p>

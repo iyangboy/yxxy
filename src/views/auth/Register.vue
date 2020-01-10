@@ -9,9 +9,13 @@
                 </div>
 
                 <div class="panel-body" data-validator-form>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label class="control-label">用户名</label>
                         <input v-model.trim="username" v-validator:input.required="{ regex: /^[a-zA-Z]+\w*\s?\w*$/, error: '用户名要求以字母开头的单词字符' }" type="text" class="form-control" placeholder="请填写用户名">
+                    </div> -->
+                    <div class="form-group">
+                        <label class="control-label">手机号</label>
+                        <input v-model.trim="phone" v-validator:input.required="{ regex: /^[1]([3-9])[0-9]{9}$/, error: '请输入正确的手机号' }" type="text" class="form-control" placeholder="请填写用户手机号">
                     </div>
                     <div class="form-group">
                         <label class="control-label">密码</label>
@@ -27,6 +31,12 @@
                     </div>
                     <div class="thumbnail" title="点击图片重新获取验证码" @click="getCaptcha">
                         <div class="captcha vcenter" v-html="captchaTpl"></div>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" v-model.trim="confirm" v-validator.required="{ title: '请阅读协议' }"> 已经阅读并同意
+                      </label>
+                      <router-link to="/yxxy-doc">《羊习习羊注册协议》</router-link>
                     </div>
                     <button type="submit" class="btn btn-lg btn-success btn-block" @click="register">
                         <i class="fa fa-btn fa-sign-in"></i> 注册
@@ -45,8 +55,10 @@ export default {
     name: "Register",
     data () {
         return {
+            confirm: 1, // 协议
             captchaTpl: "", // 验证码模板
             username: "", // 用户名
+            phone: "", // 用户手机号
             password: "", // 密码
             cpassword: "", // 确认密码
             captcha: "", // 验证码
@@ -79,6 +91,10 @@ export default {
         },
         // 向 localStorage 提交数据
         submit () {
+            if (!this.confirm) {
+                alert("请勾选协议");
+                return false;
+            }
             // 检查验证码是否匹配
             if (this.captcha.toUpperCase() !== this.localCaptcha) {
                 alert("验证码不正确");
@@ -88,6 +104,7 @@ export default {
                 // 表单里的用户信息
                 const user = {
                     name: this.username,
+                    phone: this.phone,
                     password: this.password,
                     // 根据用户名，从线上返回一张头像
                     avatar: `https://api.adorable.io/avatars/200/${

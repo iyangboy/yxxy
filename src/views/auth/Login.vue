@@ -10,8 +10,8 @@
 
                 <div class="panel-body" data-validator-form>
                     <div class="form-group">
-                        <label class="control-label">用户名</label>
-                        <input v-model.trim="username" v-validator.required="{ title: '用户名' }" type="text" class="form-control" placeholder="请填写用户名">
+                        <label class="control-label">手机号</label>
+                        <input v-model.trim="phone" v-validator.required="{ title: '手机号' }" type="text" class="form-control" placeholder="请填写用户手机号">
                     </div>
                     <div class="form-group">
                         <label class="control-label">密码</label>
@@ -32,7 +32,7 @@ export default {
     name: 'Login',
     data () {
         return {
-            username: '', // 用户名
+            phone: '', // 手机号
             password: '', // 密码
             msg: '', // 消息
             msgType: '', // 消息类型
@@ -52,7 +52,7 @@ export default {
         submit () {
             // 表单里的用户信息
             const user = {
-                name: this.username,
+                phone: this.phone,
                 password: this.password
             }
             // 仓库的用户信息
@@ -60,7 +60,7 @@ export default {
 
             if (localUser) {
                 // 检查用户名和密码是否匹配
-                if (localUser.name !== user.name || localUser.password !== user.password) {
+                if (localUser.phone !== user.phone || localUser.password !== user.password) {
                     this.showMsg('用户名或密码不正确')
                 } else {
                     // 匹配时，分发 login 事件进行登录

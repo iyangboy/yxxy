@@ -1,9 +1,10 @@
 <template>
     <div id="wrap">
         <TheHeader />
-        <div id="main-container" class="container main-container">
-            <router-view />
-        </div>
+        <!-- <div id="main-container" class="container main-container">
+
+        </div> -->
+        <router-view />
         <TheFooter />
     </div>
 </template>

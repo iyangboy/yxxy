@@ -1,13 +1,39 @@
-export default [{
+export default [
+    {
         path: '/auth/register',
         name: 'Register',
         component: () => import('@/views/auth/Register')
     },
     {
-        path: '/',
-        name: 'Home',
-        component: () => import('@/views/Home')
+        path: '/user-me',
+        name: 'me',
+        component: () => import('@/views/users/Me')
     },
+    {
+        path: '/userInfo/1/edit',
+        name: 'InfoEdit',
+        component: () => import('@/views/users/InfoEdit')
+    },
+    {
+        path: '/user-vip',
+        name: 'UserVip',
+        component: () => import('@/views/vips/Vip')
+    },
+    {
+        path: '/yxxy-doc',
+        name: 'YxxyDoc',
+        component: () => import('@/views/vips/YxxyDoc')
+    },
+    {
+        path: '/',
+        name: 'HomeIndex',
+        component: () => import('@/views/home/Index')
+    },
+    // {
+    //     path: '/',
+    //     name: 'Home',
+    //     component: () => import('@/views/Home')
+    // },
     // 其他未配置的路由都跳转到首页
     {
         path: '*',

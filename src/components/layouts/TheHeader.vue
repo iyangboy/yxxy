@@ -1,7 +1,7 @@
 <template>
     <div>
         <van-nav-bar
-        title="羊习习羊"
+        title="快呗"
         />
     </div>
 </template>

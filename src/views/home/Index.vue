@@ -1,18 +1,15 @@
 <template>
   <van-row>
-    <!-- <div class="credit-bg">
-      <h2>本期仍需要还款</h2>
-      <h3>0,00</h3>
-      <p>最近还款日2020-01-10</p>
-      <router-link to="/">账单明细</router-link>
-      <div class="">
-        <van-row>
-          <van-col span="8">立即还款</van-col>
-          <van-col span="8">分期还款</van-col>
-          <van-col span="8">申请高额</van-col>
-        </van-row>
-      </div>
-    </div> -->
+    <div>
+      <van-notice-bar text="快速授信，快速贷款" left-icon="volume-o" />
+    </div>
+    <div>
+      <van-grid :border="false" :column-num="1">
+        <van-grid-item>
+          <img src="../images/b1.png" alt="" style="width:100%" />
+        </van-grid-item>
+      </van-grid>
+    </div>
     <div>
       <van-grid>
         <van-grid-item icon="vip-card-o" text="我要办卡" />
@@ -28,58 +25,106 @@
       </van-grid>
     </div>
     <div>
-      <div class="jq22-coll-title">
-        <h2>热门卡片</h2>
-      </div>
-      <div class="jq22-credit-card">
-        <a href="javascript:;" class="jq22-flex">
-          <van-row>
-            <van-col span="12">
-              <div class="jq22-flex-box">
-                <h3>选择卡片类型</h3>
-                <p>快递选卡</p>
-                <p>免费配送</p>
-              </div>
-            </van-col>
-            <van-col span="12"><div class="jq22-flex-card">
-              <img src="../images/car-img-001.png" alt="">
-            </div>
-          </van-col>
-        </van-row>
-      </a>
-      <a href="javascript:;" class="jq22-flex">
-        <van-row>
-          <van-col span="12">
-            <div class="jq22-flex-box">
-              <h3>银联标准卡IC</h3>
-              <p>刷卡免年费</p>
-              <p>双倍积分</p>
-            </div>
-          </van-col>
-          <van-col span="12">
-            <div class="jq22-flex-card">
-              <img src="../images/car-img-002.png" alt="">
-            </div>
-          </van-col>
-        </van-row>
-      </a>
+      <van-panel title="最高借款额度"> </van-panel>
+      <van-panel title="32,000(元)"> </van-panel>
     </div>
-  </div>
-</van-row>
+    <div
+      style="background-color: #fff; font-size:16px;color:#CCCCFF;line-height: 25px;"
+    >
+      <van-panel title="产品详情"> </van-panel>
+      <van-row>
+        <van-col span="12">
+          <div style="margin-left:12px">最低日息</div>
+        </van-col>
+        <van-col span="12">
+          <div style="margin-right:12px;float:right;">
+            <span style="color:#FF0033;">0.01%</span>
+            <span style="text-decoration: line-through">0.06%</span>
+          </div>
+        </van-col>
+      </van-row>
+      <van-row>
+        <van-col span="12"
+          ><div style="margin-left:12px">借款额度</div></van-col
+        >
+        <van-col span="12"
+          ><div style="margin-right:12px;float:right;">
+            2000-32000元
+          </div></van-col
+        >
+      </van-row>
+      <van-row>
+        <van-col span="8"><div style="margin-left:12px">分期期限</div></van-col>
+        <van-col span="16"
+          ><div style="margin-right:12px;float:right;">
+            可选3、6、12、24、36期
+          </div></van-col
+        >
+      </van-row>
+      <van-row>
+        <van-col span="12"
+          ><div style="margin-left:12px">合作伙伴</div></van-col
+        >
+        <van-col span="12"
+          ><div style="margin-right:12px;float:right;">
+            农业银行、建设银行等
+          </div></van-col
+        >
+      </van-row>
+    </div>
+    <div style="height: 220px;">
+      <van-form>
+        <van-field
+          v-model="price"
+          name="申请金额"
+          label="申请金额"
+          placeholder="金额"
+          :rules="[{ required: true, message: '请填写金额' }]"
+        />
+        <van-field
+          readonly
+          clickable
+          name="picker"
+          :value="value"
+          label="分期期限"
+          placeholder="点击选择期限"
+          @click="showPicker = true"
+        />
+        <van-popup v-model="showPicker" position="bottom">
+          <van-picker
+            show-toolbar
+            :columns="columns"
+            @confirm="onConfirm"
+            @cancel="showPicker = false"
+          />
+        </van-popup>
+        <div style="margin: 16px;">
+          <van-button round block type="info" native-type="submit">
+            提交
+          </van-button>
+        </div>
+      </van-form>
+    </div>
+  </van-row>
 </template>
 
 <script>
 export default {
-  name: 'HomeIndex',
+  name: "HomeIndex",
   data() {
     return {
-    }
+      slider: 50,
+      radio: "1",
+      value: "",
+      columns: ["3个月", "6个月", "12个月", "24个月", "36个月"],
+      showPicker: false
+    };
   },
   methods: {
     showPopup() {
       this.$dialog.alert({
-        title: '购买羊习习羊VIP专享服务',
-        message: '确认购买'
+        title: "购买快呗VIP专享服务",
+        message: "确认购买"
       });
     }
   }
@@ -87,7 +132,6 @@ export default {
 </script>
 
 <style scoped>
-
 </style>
 
 <style scoped>
@@ -98,7 +142,7 @@ export default {
   padding-top: 40px;
   position: relative;
   padding-bottom: 70px;
-  background-color: #EEEEEE;
+  background-color: #fff;
 }
 .jq22-coll-title {
   padding: 15px;
@@ -111,7 +155,7 @@ export default {
   padding-left: 0.5rem;
 }
 .jq22-coll-title h2:after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 0;
   top: 3px;

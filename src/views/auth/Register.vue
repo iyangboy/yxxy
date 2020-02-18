@@ -36,7 +36,7 @@
                         <label>
                           <input type="checkbox" v-model.trim="confirm" v-validator.required="{ title: '请阅读协议' }"> 已经阅读并同意
                       </label>
-                      <router-link to="/yxxy-doc">《羊习习羊注册协议》</router-link>
+                      <router-link to="/yxxy-doc">《快呗注册协议》</router-link>
                     </div>
                     <button type="submit" class="btn btn-lg btn-success btn-block" @click="register">
                         <i class="fa fa-btn fa-sign-in"></i> 注册

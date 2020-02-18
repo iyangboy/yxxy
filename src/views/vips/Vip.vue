@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <van-divider>羊习习羊</van-divider>
+            <van-divider>快呗</van-divider>
         </div>
         <div>
           <van-grid>
@@ -20,7 +20,7 @@
     <div>
         <!-- <van-divider dashed>
             <van-radio-group v-model="radio">
-          <van-radio name="1">已经阅读并同意<router-link to="/yxxy-doc">《羊习习羊注册协议》</router-link></van-radio>
+          <van-radio name="1">已经阅读并同意<router-link to="/yxxy-doc">《快呗注册协议》</router-link></van-radio>
         </van-radio-group>
     </van-divider> -->
     <div v-if="auth">
@@ -31,7 +31,7 @@
           </van-radio-group>
         </van-divider>
         <div class="col-sm-offset-2 col-sm-6">
-        <button v-if="auth" type="submit" class="btn btn-primary btn-block" @click="showPopup">购买羊习习羊VIP专享服务￥249</button>
+        <button v-if="auth" type="submit" class="btn btn-primary btn-block" @click="showPopup">购买快呗VIP专享服务￥249</button>
         </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ export default {
     methods: {
         showPopup() {
           this.$dialog.confirm({
-            title: '购买羊习习羊VIP专享服务',
+            title: '购买快呗VIP专享服务',
             message: '确认购买',
         }).then(() => {
             this.updateProfile();

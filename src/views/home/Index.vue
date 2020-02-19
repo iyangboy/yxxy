@@ -24,11 +24,11 @@
         <van-grid-item icon="apps-o" text="更多服务" />
       </van-grid>
     </div>
-    <div>
+    <!-- <div>
       <van-panel title="最高借款额度"> </van-panel>
       <van-panel title="32,000(元)"> </van-panel>
-    </div>
-    <div
+    </div> -->
+    <!-- <div
       style="background-color: #fff; font-size:16px;color:#CCCCFF;line-height: 25px;"
     >
       <van-panel title="产品详情"> </van-panel>
@@ -75,7 +75,7 @@
           >
         </van-row>
       </div>
-    </div>
+    </div> -->
     <div>
       <van-panel title="VIP权益"> </van-panel>
       <div>

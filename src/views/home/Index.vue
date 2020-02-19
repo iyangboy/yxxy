@@ -72,14 +72,15 @@
         >
       </van-row>
     </div>
-    <div style="height: 220px;">
-      <van-form>
+    <div style="height: 300px;">
+      <van-form name="form">
         <van-field
           v-model="price"
-          name="申请金额"
+          name="price"
           label="申请金额"
-          placeholder="金额"
+          placeholder="金额（最高32000元）"
           :rules="[{ required: true, message: '请填写金额' }]"
+          @keyup="onClick"
         />
         <van-field
           readonly
@@ -87,20 +88,32 @@
           name="picker"
           :value="value"
           label="分期期限"
-          placeholder="点击选择期限"
+          placeholder="点击选择期限（可分36期）"
           @click="showPicker = true"
         />
         <van-popup v-model="showPicker" position="bottom">
           <van-picker
+            name="form1"
             show-toolbar
             :columns="columns"
+            :default-index="2"
             @confirm="onConfirm"
             @cancel="showPicker = false"
           />
         </van-popup>
+        <van-cell-group>
+          <van-field label="每期还款" v-model="money" readonly />
+        </van-cell-group>
+        <van-field name="radio" label="">
+          <van-radio-group v-model="radio" direction="horizontal" slot="input">
+            <van-radio name="1">同意
+              <span style="display:inline-block;"><a href="#">《服务协议》</a></span>
+              </van-radio>
+          </van-radio-group>
+        </van-field>
         <div style="margin: 16px;">
-          <van-button round block type="info" native-type="submit">
-            提交
+          <van-button class="btn btn-primary btn-block" round block type="info" native-type="submit">
+            立即申请
           </van-button>
         </div>
       </van-form>
@@ -113,14 +126,57 @@ export default {
   name: "HomeIndex",
   data() {
     return {
-      slider: 50,
-      radio: "1",
+      money: '',
+      price: '',
+      month: 1,
+      capital: '',
+      money_rates: '',
+      radio: "",
       value: "",
       columns: ["3个月", "6个月", "12个月", "24个月", "36个月"],
       showPicker: false
     };
   },
   methods: {
+    onConfirm(value) {
+      this.value = value;
+      this.showPicker = false;
+      if (this.value == '3个月') {
+        this.month = 3;
+      } else if (this.value == '6个月'){
+        this.month = 6;
+      } else if (this.value == '12个月'){
+        this.month = 12;
+      } else if (this.value == '24个月'){
+        this.month = 24;
+      } else if (this.value == '36个月'){
+        this.month = 36;
+      } else {
+        this.month = 0;
+      }
+      this.capital = (this.price / this.month).toFixed(2);
+      this.money_rates = (this.price * 0.003).toFixed(2);
+      this.money = Number(this.capital) + Number(this.money_rates);
+      // console.log(this.month);
+      // console.log(this.price);
+      // console.log(this.money);
+    },
+    onChange(picker, value, index) {
+      Toast(`当前值：${value}, 当前索引：${index}`);
+    },
+    onClick(){
+      this.price = Number(this.price);
+      if (this.price > 32000) {
+        this.price = 32000;
+      }
+      this.capital = (this.price / this.month).toFixed(2);
+      this.money_rates = (this.price * 0.003).toFixed(2);
+      this.money = Number(this.capital) + Number(this.money_rates);
+      this.money = this.money.toFixed(2);
+      // console.log(this.month);
+      // console.log(this.price);
+      // console.log(this.money);
+    },
     showPopup() {
       this.$dialog.alert({
         title: "购买快呗VIP专享服务",

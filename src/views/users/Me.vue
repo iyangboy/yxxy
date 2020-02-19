@@ -36,6 +36,19 @@
               </van-collapse-item>
             </van-collapse>
           </div>
+          <div>
+            <van-collapse v-model="cardNames">
+              <van-collapse-item title="绑卡信息" name="1">
+                持卡人姓名：{{ user.card_username }}
+                <hr>
+                身份证号码：{{ user.card_id_card }}
+                <hr>
+                开户行：{{ user.card_bank_name }}
+                <hr>
+                银行卡号：{{ user.card_bank_card }}
+              </van-collapse-item>
+            </van-collapse>
+          </div>
           <div><van-cell title="编辑资料" is-link to="/userInfo/1/edit" /></div>
         </div>
         <div style="border-bottom:5px solid #EEEEEE">
@@ -81,7 +94,8 @@ export default {
   },
   data () {
     return {
-      activeNames: []
+      activeNames: [],
+      cardNames: [],
     }
   },
   methods: {

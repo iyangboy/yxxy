@@ -15,6 +15,11 @@ export default [
         component: () => import('@/views/users/InfoEdit')
     },
     {
+      path: '/userBindingCard/1/edit',
+      name: 'userBindingCard',
+      component: () => import('@/views/users/BindingCard')
+    },
+    {
         path: '/user-vip',
         name: 'UserVip',
         component: () => import('@/views/vips/Vip')

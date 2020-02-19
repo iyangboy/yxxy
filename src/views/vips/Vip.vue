@@ -24,6 +24,7 @@
         </van-radio-group>
     </van-divider> -->
     <div v-if="auth">
+        <van-panel title="购买VIP ￥268 "> </van-panel>
         <div class="form-group">
         <van-divider dashed>
             <van-radio-group v-model="radio">
@@ -31,7 +32,7 @@
           </van-radio-group>
         </van-divider>
         <div class="col-sm-offset-2 col-sm-6">
-        <button v-if="auth" type="submit" class="btn btn-primary btn-block" @click="showPopup">购买快呗VIP专享服务￥249</button>
+        <button v-if="auth" type="submit" class="btn btn-primary btn-block" @click="showPopup">购买快呗VIP专享服务￥268</button>
         </div>
         </div>
       </div>

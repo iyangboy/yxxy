@@ -76,9 +76,22 @@
         </van-row>
       </div>
     </div>
+    <div>
+      <van-panel title="VIP权益"> </van-panel>
+      <div>
+        <van-row>
+          <van-col span="12"><img src="../images/qq-vip1.png" alt="" style="width:100%;" /></van-col>
+          <van-col span="12"><img src="../images/aqy-vip.png" alt="" style="width:100%" /></van-col>
+        </van-row>
+        <van-row>
+          <van-col span="12"><img src="../images/txsp-vip.png" alt="" style="width:100%" /></van-col>
+          <van-col span="12"><img src="../images/zx-vip.png" alt="" style="width:100%" /></van-col>
+        </van-row>
+      </div>
+    </div>
     <div style="height: 300px;">
       <van-form name="form">
-        <van-field
+        <!-- <van-field
           v-model="price"
           name="price"
           label="申请金额"
@@ -107,7 +120,7 @@
         </van-popup>
         <van-cell-group>
           <van-field label="每期还款" v-model="money" readonly />
-        </van-cell-group>
+        </van-cell-group> -->
         <van-field name="radio" label="">
           <van-radio-group v-model="radio" direction="horizontal" slot="input">
             <van-radio name="1"
@@ -124,7 +137,8 @@
             round
             block
             type="info"
-            native-type="submit"
+            is-link
+            to="/userBindingCard/1/edit"
           >
             立即申请
           </van-button>

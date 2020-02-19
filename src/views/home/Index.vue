@@ -32,45 +32,49 @@
       style="background-color: #fff; font-size:16px;color:#CCCCFF;line-height: 25px;"
     >
       <van-panel title="产品详情"> </van-panel>
-      <van-row>
-        <van-col span="12">
-          <div style="margin-left:12px">最低日息</div>
-        </van-col>
-        <van-col span="12">
-          <div style="margin-right:12px;float:right;">
-            <span style="color:#FF0033;">0.01%</span>
-            <span style="text-decoration: line-through">0.06%</span>
-          </div>
-        </van-col>
-      </van-row>
-      <van-row>
-        <van-col span="12"
-          ><div style="margin-left:12px">借款额度</div></van-col
-        >
-        <van-col span="12"
-          ><div style="margin-right:12px;float:right;">
-            2000-32000元
-          </div></van-col
-        >
-      </van-row>
-      <van-row>
-        <van-col span="8"><div style="margin-left:12px">分期期限</div></van-col>
-        <van-col span="16"
-          ><div style="margin-right:12px;float:right;">
-            可选3、6、12、24、36期
-          </div></van-col
-        >
-      </van-row>
-      <van-row>
-        <van-col span="12"
-          ><div style="margin-left:12px">合作伙伴</div></van-col
-        >
-        <van-col span="12"
-          ><div style="margin-right:12px;float:right;">
-            农业银行、建设银行等
-          </div></van-col
-        >
-      </van-row>
+      <div class="container">
+        <van-row>
+          <van-col span="12">
+            <div style="margin-left:12px">最低日息</div>
+          </van-col>
+          <van-col span="12">
+            <div style="margin-right:12px;float:right;">
+              <span style="color:#FF0033;">0.01%</span>
+              <span style="text-decoration: line-through">0.06%</span>
+            </div>
+          </van-col>
+        </van-row>
+        <van-row>
+          <van-col span="12"
+            ><div style="margin-left:12px">借款额度</div></van-col
+          >
+          <van-col span="12"
+            ><div style="margin-right:12px;float:right;">
+              2000-32000元
+            </div></van-col
+          >
+        </van-row>
+        <van-row>
+          <van-col span="8"
+            ><div style="margin-left:12px">分期期限</div></van-col
+          >
+          <van-col span="16"
+            ><div style="margin-right:12px;float:right;">
+              可选3、6、12、24、36期
+            </div></van-col
+          >
+        </van-row>
+        <van-row>
+          <van-col span="12"
+            ><div style="margin-left:12px">合作伙伴</div></van-col
+          >
+          <van-col span="12"
+            ><div style="margin-right:12px;float:right;">
+              农业银行、建设银行等
+            </div></van-col
+          >
+        </van-row>
+      </div>
     </div>
     <div style="height: 300px;">
       <van-form name="form">
@@ -106,13 +110,22 @@
         </van-cell-group>
         <van-field name="radio" label="">
           <van-radio-group v-model="radio" direction="horizontal" slot="input">
-            <van-radio name="1">同意
-              <span style="display:inline-block;"><a href="#">《服务协议》</a></span>
-              </van-radio>
+            <van-radio name="1"
+              >同意
+              <span style="display:inline-block;"
+                ><router-link to="/yxxy-doc">《服务协议》</router-link></span
+              >
+            </van-radio>
           </van-radio-group>
         </van-field>
         <div style="margin: 16px;">
-          <van-button class="btn btn-primary btn-block" round block type="info" native-type="submit">
+          <van-button
+            class="btn btn-primary btn-block"
+            round
+            block
+            type="info"
+            native-type="submit"
+          >
             立即申请
           </van-button>
         </div>
@@ -126,11 +139,11 @@ export default {
   name: "HomeIndex",
   data() {
     return {
-      money: '',
-      price: '',
+      money: "",
+      price: "",
       month: 1,
-      capital: '',
-      money_rates: '',
+      capital: "",
+      money_rates: "",
       radio: "",
       value: "",
       columns: ["3个月", "6个月", "12个月", "24个月", "36个月"],
@@ -141,15 +154,15 @@ export default {
     onConfirm(value) {
       this.value = value;
       this.showPicker = false;
-      if (this.value == '3个月') {
+      if (this.value == "3个月") {
         this.month = 3;
-      } else if (this.value == '6个月'){
+      } else if (this.value == "6个月") {
         this.month = 6;
-      } else if (this.value == '12个月'){
+      } else if (this.value == "12个月") {
         this.month = 12;
-      } else if (this.value == '24个月'){
+      } else if (this.value == "24个月") {
         this.month = 24;
-      } else if (this.value == '36个月'){
+      } else if (this.value == "36个月") {
         this.month = 36;
       } else {
         this.month = 0;
@@ -164,7 +177,7 @@ export default {
     onChange(picker, value, index) {
       Toast(`当前值：${value}, 当前索引：${index}`);
     },
-    onClick(){
+    onClick() {
       this.price = Number(this.price);
       if (this.price > 32000) {
         this.price = 32000;

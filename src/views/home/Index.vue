@@ -113,7 +113,7 @@
             <van-radio name="1"
               >同意
               <span style="display:inline-block;"
-                ><router-link to="/yxxy-doc">《服务协议》</router-link></span
+                ><router-link to="/yxxy-doc">《注册协议》</router-link></span
               >
             </van-radio>
           </van-radio-group>
